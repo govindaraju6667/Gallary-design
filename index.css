@@ -1,0 +1,227 @@
+* {
+  font-family: "Montserrat";
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.profiledata {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+#profile {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+#profile > img {
+  width: 156px;
+  border-radius: 16px;
+}
+.profiledata > h4 {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 600px;
+  color: #4e5150;
+}
+.profiledata > p {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  color: #a9a9a9;
+}
+#status {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 24px;
+}
+#post {
+  border-radius: 10px;
+  background-color: #e5e5e5;
+  border: none;
+  width: 100px;
+  height: 60px;
+}
+#post > h4 {
+  font-size: 18px;
+  font-weight: 600;
+}
+#post > p {
+  color: #bdbdbd;
+  font-size: 14px;
+  font-weight: 600;
+}
+.gallery {
+  margin-top: 64px;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  gap: 30px;
+}
+.image1,
+.image5,
+.image6 {
+  width: 299px;
+  height: 299px;
+  border-radius: 12px;
+}
+.image3 {
+  width: 627px;
+  height: 299px;
+  border-radius: 12px;
+  grid-column: 1 / span 2;
+}
+.image4 {
+  width: 297px;
+  height: 630px;
+  border-radius: 12px;
+  grid-column: 3;
+  grid-row: 2 / span 3;
+}
+.image2 {
+  grid-column: 2 / span 3;
+  border-radius: 12px;
+  width: 629px;
+  height: 299px;
+}
+.image5 {
+  grid-column: 2;
+  grid-row: 3;
+}
+.image6 {
+  grid-column: 1;
+  grid-row: 3;
+}
+.image1 {
+  background-image: url(/photo1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.image2 {
+  background-image: url(/photo2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.image3 {
+  background-image: url(/photo3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.image4 {
+  background-image: url(/photo_4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.image5 {
+  background-image: url(/photo5.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.image6 {
+  background-image: url(/photo6.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#author {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  margin-top: 50px;
+  color: #b9bdcf;
+  text-align: center;
+}
+@media (min-width: 700px) and (max-width: 1000px) {
+  .image1,
+  .image5,
+  .image6 {
+    width: 236px;
+    height: 250px;
+  }
+  .image3 {
+    width: 494px;
+    height: 250px;
+  }
+  .image4 {
+    width: 240px;
+    height: 515px;
+  }
+  .image2 {
+    width: 494px;
+    height: 250px;
+  }
+  .gallery {
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #profile > img {
+    width: 101.76px;
+    height: 101.76px;
+  }
+  .profiledata > h4 {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .profiledata > p {
+    font-size: 10px;
+  }
+  #status {
+    gap: 24px;
+    margin-top: 12px;
+  }
+  #post {
+    width: 78px;
+    height: 52px;
+  }
+  #post > h4 {
+    font-size: 12px;
+  }
+  #post > p {
+    color: #bdbdbd;
+    font-size: 12px;
+  }
+  .gallery {
+    margin-top: 39px;
+    gap: 10px;
+  }
+  .image1,
+  .image5,
+  .image6 {
+    width: 93px;
+    height: 110px;
+  }
+  .image3 {
+    width: 197px;
+    height: 110px;
+  }
+  .image4 {
+    width: 99px;
+    height: 230px;
+  }
+  .image2 {
+    width: 203px;
+    height: 109px;
+  }
+  #author {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    margin-top: 50px;
+    color: #b9bdcf;
+    /* width: 287px;
+    height: 17px; */
+    text-align: center;
+  }
+}
