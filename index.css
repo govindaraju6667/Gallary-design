@@ -103,32 +103,32 @@
   grid-row: 3;
 }
 .image1 {
-  background-image: url(/photo1.png);
+  background-image: url(./photo1.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
 .image2 {
-  background-image: url(/photo2.png);
+  background-image: url(./photo2.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
 .image3 {
-  background-image: url(/photo3.png);
+  background-image: url(./photo3.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
 .image4 {
-  background-image: url(/photo_4.png);
+  background-image: url(./photo_4.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
 .image5 {
-  background-image: url(/photo5.png);
+  background-image: url(./photo5.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
 .image6 {
-  background-image: url(/photo6.png);
+  background-image: url(./photo6.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
